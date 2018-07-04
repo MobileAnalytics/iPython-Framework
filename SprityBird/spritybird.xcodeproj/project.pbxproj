@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		576A22CE18B9CB8E001338C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A0A418A6F53400FEBE9B /* Main.storyboard */; };
+		821A756818AD618A00B376D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A0AA18A6F53400FEBE9B /* Images.xcassets */; };
+		821A756A18AD61B100B376D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A09E18A6F53400FEBE9B /* main.m */; };
+		823C184518B3E57F00C9BD2F /* taptap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184318B3E57F00C9BD2F /* taptap@2x.png */; };
+		823C184618B3E57F00C9BD2F /* get_ready@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184418B3E57F00C9BD2F /* get_ready@2x.png */; };
+		823C184D18B3F1BB00C9BD2F /* medal_silver@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184718B3F1BB00C9BD2F /* medal_silver@2x.png */; };
+		823C184E18B3F1BB00C9BD2F /* medal_gold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184818B3F1BB00C9BD2F /* medal_gold@2x.png */; };
+		823C184F18B3F1BB00C9BD2F /* medal_bronze@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184918B3F1BB00C9BD2F /* medal_bronze@2x.png */; };
+		823C185018B3F1BB00C9BD2F /* medal_plate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184A18B3F1BB00C9BD2F /* medal_plate@2x.png */; };
+		823C185118B3F1BB00C9BD2F /* game_over@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184B18B3F1BB00C9BD2F /* game_over@2x.png */; };
+		823C185218B3F1BB00C9BD2F /* medal_platinum@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C184C18B3F1BB00C9BD2F /* medal_platinum@2x.png */; };
+		823C185418B3FBCC00C9BD2F /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 823C185318B3FBCC00C9BD2F /* back@2x.png */; };
+		82457DBB18B2C3490042CF82 /* bird_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB418B2C3490042CF82 /* bird_1@2x.png */; };
+		82457DBC18B2C3490042CF82 /* bird_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB518B2C3490042CF82 /* bird_2@2x.png */; };
+		82457DBD18B2C3490042CF82 /* bird_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB618B2C3490042CF82 /* bird_3@2x.png */; };
+		82457DBE18B2C3490042CF82 /* floor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB718B2C3490042CF82 /* floor@2x.png */; };
+		82457DBF18B2C3490042CF82 /* pipe_top@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB818B2C3490042CF82 /* pipe_top@2x.png */; };
+		82457DC018B2C3490042CF82 /* pipe_bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82457DB918B2C3490042CF82 /* pipe_bottom@2x.png */; };
+		82C6A09318A6F53400FEBE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09218A6F53400FEBE9B /* Foundation.framework */; };
+		82C6A09518A6F53400FEBE9B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09418A6F53400FEBE9B /* CoreGraphics.framework */; };
+		82C6A09718A6F53400FEBE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09618A6F53400FEBE9B /* UIKit.framework */; };
+		82C6A0B218A6F53400FEBE9B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A0B118A6F53400FEBE9B /* XCTest.framework */; };
+		82C6A0B318A6F53400FEBE9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09218A6F53400FEBE9B /* Foundation.framework */; };
+		82C6A0B418A6F53400FEBE9B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A09618A6F53400FEBE9B /* UIKit.framework */; };
+		82C6A0BC18A6F53400FEBE9B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */; };
+		82C6A0BE18A6F53400FEBE9B /* spritybirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */; };
+		82C6A0CB18A6FF7400FEBE9B /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82C6A0CA18A6FF7400FEBE9B /* SpriteKit.framework */; };
+		82FEEB9418B550BF00AA6C66 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FEEB9318B550BF00AA6C66 /* Main-iPad.storyboard */; };
+		C3962F1E20EBADAA00412410 /* iPython_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3962F1D20EBADA900412410 /* iPython_Framework.framework */; };
+		C3962F1F20EBADAA00412410 /* iPython_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C3962F1D20EBADA900412410 /* iPython_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C3F7E70020E62EAE003D961F /* python3.5 in Resources */ = {isa = PBXBuildFile; fileRef = C3F7E6FF20E62EAE003D961F /* python3.5 */; };
+		C3F7E70420E62ED3003D961F /* Math.py in Resources */ = {isa = PBXBuildFile; fileRef = C3F7E70120E62ED3003D961F /* Math.py */; };
+		C3F7E70520E62ED3003D961F /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = C3F7E70220E62ED3003D961F /* main.py */; };
+		C3F7E70620E62ED3003D961F /* Scene.py in Resources */ = {isa = PBXBuildFile; fileRef = C3F7E70320E62ED3003D961F /* Scene.py */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82C6A0B518A6F53400FEBE9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82C6A08718A6F53400FEBE9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82C6A08E18A6F53400FEBE9B;
+			remoteInfo = spritybird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3F7E6FE20E62EA4003D961F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C3962F1F20EBADAA00412410 /* iPython_Framework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		823C184318B3E57F00C9BD2F /* taptap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taptap@2x.png"; sourceTree = "<group>"; };
+		823C184418B3E57F00C9BD2F /* get_ready@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "get_ready@2x.png"; sourceTree = "<group>"; };
+		823C184718B3F1BB00C9BD2F /* medal_silver@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_silver@2x.png"; sourceTree = "<group>"; };
+		823C184818B3F1BB00C9BD2F /* medal_gold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_gold@2x.png"; sourceTree = "<group>"; };
+		823C184918B3F1BB00C9BD2F /* medal_bronze@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_bronze@2x.png"; sourceTree = "<group>"; };
+		823C184A18B3F1BB00C9BD2F /* medal_plate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_plate@2x.png"; sourceTree = "<group>"; };
+		823C184B18B3F1BB00C9BD2F /* game_over@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "game_over@2x.png"; sourceTree = "<group>"; };
+		823C184C18B3F1BB00C9BD2F /* medal_platinum@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "medal_platinum@2x.png"; sourceTree = "<group>"; };
+		823C185318B3FBCC00C9BD2F /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		82457DB418B2C3490042CF82 /* bird_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_1@2x.png"; sourceTree = "<group>"; };
+		82457DB518B2C3490042CF82 /* bird_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_2@2x.png"; sourceTree = "<group>"; };
+		82457DB618B2C3490042CF82 /* bird_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird_3@2x.png"; sourceTree = "<group>"; };
+		82457DB718B2C3490042CF82 /* floor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "floor@2x.png"; sourceTree = "<group>"; };
+		82457DB818B2C3490042CF82 /* pipe_top@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_top@2x.png"; sourceTree = "<group>"; };
+		82457DB918B2C3490042CF82 /* pipe_bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pipe_bottom@2x.png"; sourceTree = "<group>"; };
+		82C6A08F18A6F53400FEBE9B /* spritybird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spritybird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C6A09218A6F53400FEBE9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82C6A09418A6F53400FEBE9B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82C6A09618A6F53400FEBE9B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82C6A09A18A6F53400FEBE9B /* spritybird-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spritybird-Info.plist"; sourceTree = "<group>"; };
+		82C6A09C18A6F53400FEBE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82C6A09E18A6F53400FEBE9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82C6A0A518A6F53400FEBE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82C6A0AA18A6F53400FEBE9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spritybirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C6A0B118A6F53400FEBE9B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		82C6A0B918A6F53400FEBE9B /* spritybirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spritybirdTests-Info.plist"; sourceTree = "<group>"; };
+		82C6A0BB18A6F53400FEBE9B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spritybirdTests.m; sourceTree = "<group>"; };
+		82C6A0CA18A6FF7400FEBE9B /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		82FEEB9318B550BF00AA6C66 /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
+		C3962F1D20EBADA900412410 /* iPython_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iPython_Framework.framework; path = "spritybird/Debug-iphonesimulator/iPython_Framework.framework"; sourceTree = "<group>"; };
+		C3F7E6FF20E62EAE003D961F /* python3.5 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = python3.5; path = spritybird/python3.5; sourceTree = "<group>"; };
+		C3F7E70120E62ED3003D961F /* Math.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = Math.py; path = Classes/Math.py; sourceTree = "<group>"; };
+		C3F7E70220E62ED3003D961F /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = main.py; path = Classes/main.py; sourceTree = "<group>"; };
+		C3F7E70320E62ED3003D961F /* Scene.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = Scene.py; path = Classes/Scene.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82C6A08C18A6F53400FEBE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3962F1E20EBADAA00412410 /* iPython_Framework.framework in Frameworks */,
+				82C6A0CB18A6FF7400FEBE9B /* SpriteKit.framework in Frameworks */,
+				82C6A09518A6F53400FEBE9B /* CoreGraphics.framework in Frameworks */,
+				82C6A09718A6F53400FEBE9B /* UIKit.framework in Frameworks */,
+				82C6A09318A6F53400FEBE9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C6A0AD18A6F53400FEBE9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C6A0B218A6F53400FEBE9B /* XCTest.framework in Frameworks */,
+				82C6A0B418A6F53400FEBE9B /* UIKit.framework in Frameworks */,
+				82C6A0B318A6F53400FEBE9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8274FC3318A7F14000FEBCE7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				823C184718B3F1BB00C9BD2F /* medal_silver@2x.png */,
+				823C184818B3F1BB00C9BD2F /* medal_gold@2x.png */,
+				823C184918B3F1BB00C9BD2F /* medal_bronze@2x.png */,
+				823C185318B3FBCC00C9BD2F /* back@2x.png */,
+				823C184A18B3F1BB00C9BD2F /* medal_plate@2x.png */,
+				823C184B18B3F1BB00C9BD2F /* game_over@2x.png */,
+				823C184C18B3F1BB00C9BD2F /* medal_platinum@2x.png */,
+				823C184318B3E57F00C9BD2F /* taptap@2x.png */,
+				823C184418B3E57F00C9BD2F /* get_ready@2x.png */,
+				82457DB418B2C3490042CF82 /* bird_1@2x.png */,
+				82457DB518B2C3490042CF82 /* bird_2@2x.png */,
+				82457DB618B2C3490042CF82 /* bird_3@2x.png */,
+				82457DB718B2C3490042CF82 /* floor@2x.png */,
+				82457DB818B2C3490042CF82 /* pipe_top@2x.png */,
+				82457DB918B2C3490042CF82 /* pipe_bottom@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		82C6A08618A6F53400FEBE9B = {
+			isa = PBXGroup;
+			children = (
+				C3962F1D20EBADA900412410 /* iPython_Framework.framework */,
+				C3F7E6FF20E62EAE003D961F /* python3.5 */,
+				82C6A09818A6F53400FEBE9B /* spritybird */,
+				82C6A0B718A6F53400FEBE9B /* spritybird Tests */,
+				82C6A09118A6F53400FEBE9B /* Frameworks */,
+				82C6A09018A6F53400FEBE9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82C6A09018A6F53400FEBE9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A08F18A6F53400FEBE9B /* spritybird.app */,
+				82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82C6A09118A6F53400FEBE9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A0CA18A6FF7400FEBE9B /* SpriteKit.framework */,
+				82C6A09218A6F53400FEBE9B /* Foundation.framework */,
+				82C6A09418A6F53400FEBE9B /* CoreGraphics.framework */,
+				82C6A09618A6F53400FEBE9B /* UIKit.framework */,
+				82C6A0B118A6F53400FEBE9B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82C6A09818A6F53400FEBE9B /* spritybird */ = {
+			isa = PBXGroup;
+			children = (
+				C3F7E70220E62ED3003D961F /* main.py */,
+				C3F7E70120E62ED3003D961F /* Math.py */,
+				C3F7E70320E62ED3003D961F /* Scene.py */,
+				82C6A0D918A7913200FEBE9B /* Resources */,
+				82C6A09918A6F53400FEBE9B /* Supporting Files */,
+			);
+			path = spritybird;
+			sourceTree = "<group>";
+		};
+		82C6A09918A6F53400FEBE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A09A18A6F53400FEBE9B /* spritybird-Info.plist */,
+				82C6A09B18A6F53400FEBE9B /* InfoPlist.strings */,
+				82C6A09E18A6F53400FEBE9B /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C6A0B718A6F53400FEBE9B /* spritybird Tests */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A0BD18A6F53400FEBE9B /* spritybirdTests.m */,
+				82C6A0B818A6F53400FEBE9B /* Supporting Files */,
+			);
+			name = "spritybird Tests";
+			path = spritybirdTests;
+			sourceTree = "<group>";
+		};
+		82C6A0B818A6F53400FEBE9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82C6A0B918A6F53400FEBE9B /* spritybirdTests-Info.plist */,
+				82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82C6A0D918A7913200FEBE9B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82FEEB9318B550BF00AA6C66 /* Main-iPad.storyboard */,
+				82C6A0A418A6F53400FEBE9B /* Main.storyboard */,
+				8274FC3318A7F14000FEBCE7 /* Images */,
+				82C6A0AA18A6F53400FEBE9B /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82C6A08E18A6F53400FEBE9B /* spritybird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C6A0C118A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybird" */;
+			buildPhases = (
+				82C6A08B18A6F53400FEBE9B /* Sources */,
+				82C6A08C18A6F53400FEBE9B /* Frameworks */,
+				82C6A08D18A6F53400FEBE9B /* Resources */,
+				C3F7E6FE20E62EA4003D961F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spritybird;
+			productName = spritybird;
+			productReference = 82C6A08F18A6F53400FEBE9B /* spritybird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82C6A0AF18A6F53400FEBE9B /* spritybirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C6A0C418A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybirdTests" */;
+			buildPhases = (
+				82C6A0AC18A6F53400FEBE9B /* Sources */,
+				82C6A0AD18A6F53400FEBE9B /* Frameworks */,
+				82C6A0AE18A6F53400FEBE9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C6A0B618A6F53400FEBE9B /* PBXTargetDependency */,
+			);
+			name = spritybirdTests;
+			productName = spritybirdTests;
+			productReference = 82C6A0B018A6F53400FEBE9B /* spritybirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82C6A08718A6F53400FEBE9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alexis Creuzot";
+				TargetAttributes = {
+					82C6A08E18A6F53400FEBE9B = {
+						DevelopmentTeam = Z4ZJ4H7B9U;
+					};
+					82C6A0AF18A6F53400FEBE9B = {
+						TestTargetID = 82C6A08E18A6F53400FEBE9B;
+					};
+				};
+			};
+			buildConfigurationList = 82C6A08A18A6F53400FEBE9B /* Build configuration list for PBXProject "spritybird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82C6A08618A6F53400FEBE9B;
+			productRefGroup = 82C6A09018A6F53400FEBE9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82C6A08E18A6F53400FEBE9B /* spritybird */,
+				82C6A0AF18A6F53400FEBE9B /* spritybirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82C6A08D18A6F53400FEBE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3F7E70520E62ED3003D961F /* main.py in Resources */,
+				82457DBC18B2C3490042CF82 /* bird_2@2x.png in Resources */,
+				823C184D18B3F1BB00C9BD2F /* medal_silver@2x.png in Resources */,
+				821A756818AD618A00B376D5 /* Images.xcassets in Resources */,
+				823C185118B3F1BB00C9BD2F /* game_over@2x.png in Resources */,
+				823C185418B3FBCC00C9BD2F /* back@2x.png in Resources */,
+				82457DC018B2C3490042CF82 /* pipe_bottom@2x.png in Resources */,
+				823C184518B3E57F00C9BD2F /* taptap@2x.png in Resources */,
+				823C184E18B3F1BB00C9BD2F /* medal_gold@2x.png in Resources */,
+				823C185018B3F1BB00C9BD2F /* medal_plate@2x.png in Resources */,
+				82FEEB9418B550BF00AA6C66 /* Main-iPad.storyboard in Resources */,
+				C3F7E70620E62ED3003D961F /* Scene.py in Resources */,
+				823C185218B3F1BB00C9BD2F /* medal_platinum@2x.png in Resources */,
+				823C184F18B3F1BB00C9BD2F /* medal_bronze@2x.png in Resources */,
+				82457DBF18B2C3490042CF82 /* pipe_top@2x.png in Resources */,
+				82457DBB18B2C3490042CF82 /* bird_1@2x.png in Resources */,
+				823C184618B3E57F00C9BD2F /* get_ready@2x.png in Resources */,
+				C3F7E70020E62EAE003D961F /* python3.5 in Resources */,
+				C3F7E70420E62ED3003D961F /* Math.py in Resources */,
+				576A22CE18B9CB8E001338C0 /* Main.storyboard in Resources */,
+				82457DBD18B2C3490042CF82 /* bird_3@2x.png in Resources */,
+				82457DBE18B2C3490042CF82 /* floor@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C6A0AE18A6F53400FEBE9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C6A0BC18A6F53400FEBE9B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82C6A08B18A6F53400FEBE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821A756A18AD61B100B376D5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C6A0AC18A6F53400FEBE9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82C6A0BE18A6F53400FEBE9B /* spritybirdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C6A0B618A6F53400FEBE9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82C6A08E18A6F53400FEBE9B /* spritybird */;
+			targetProxy = 82C6A0B518A6F53400FEBE9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82C6A09B18A6F53400FEBE9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C6A09C18A6F53400FEBE9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82C6A0A418A6F53400FEBE9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C6A0A518A6F53400FEBE9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82C6A0BA18A6F53400FEBE9B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82C6A0BB18A6F53400FEBE9B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82C6A0BF18A6F53400FEBE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82C6A0C018A6F53400FEBE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82C6A0C218A6F53400FEBE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z4ZJ4H7B9U;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/spritybird/Debug-iphonesimulator",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "/Users/administrator/Documents/GitHub/SprityBird/spritybird/Debug-iphonesimulator/iPython_Framework.framework/Headers";
+				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = spritybird;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82C6A0C318A6F53400FEBE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = Z4ZJ4H7B9U;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/spritybird/Debug-iphonesimulator",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				HEADER_SEARCH_PATHS = "/Users/administrator/Documents/GitHub/SprityBird/spritybird/Debug-iphonesimulator/iPython_Framework.framework/Headers";
+				INFOPLIST_FILE = "spritybird/Supporting Files/spritybird-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = spritybird;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		82C6A0C518A6F53400FEBE9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spritybird.app/spritybird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spritybird/spritybird-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "spritybirdTests/spritybirdTests-Info.plist";
+				PRODUCT_NAME = spritybirdTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		82C6A0C618A6F53400FEBE9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/spritybird.app/spritybird";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "spritybird/spritybird-Prefix.pch";
+				INFOPLIST_FILE = "spritybirdTests/spritybirdTests-Info.plist";
+				PRODUCT_NAME = spritybirdTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82C6A08A18A6F53400FEBE9B /* Build configuration list for PBXProject "spritybird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C6A0BF18A6F53400FEBE9B /* Debug */,
+				82C6A0C018A6F53400FEBE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C6A0C118A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C6A0C218A6F53400FEBE9B /* Debug */,
+				82C6A0C318A6F53400FEBE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C6A0C418A6F53400FEBE9B /* Build configuration list for PBXNativeTarget "spritybirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82C6A0C518A6F53400FEBE9B /* Debug */,
+				82C6A0C618A6F53400FEBE9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82C6A08718A6F53400FEBE9B /* Project object */;
+}

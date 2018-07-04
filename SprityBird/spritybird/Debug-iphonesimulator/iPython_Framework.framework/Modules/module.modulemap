@@ -1,0 +1,6 @@
+framework module iPython_Framework {
+  umbrella header "iPython_Framework.h"
+
+  export *
+  module * { export * }
+}
